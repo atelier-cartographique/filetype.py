@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from filetype import types
-from filetype.utils import get_bytes
+from . import types
+from .utils import get_bytes
 
 
 def match(obj, matchers=types.types):
