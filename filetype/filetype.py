@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from . import match
+from .match import match
 from .types import types
 
 # Expose supported matchers types

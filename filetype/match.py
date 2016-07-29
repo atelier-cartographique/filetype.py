@@ -3,7 +3,6 @@
 from . import types
 from .utils import get_bytes
 
-
 def match(obj, matchers=types.types):
     """
     Matches the given input againts the available
